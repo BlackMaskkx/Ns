@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Upload with imgBB</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Image Upload to imgBB</h1>
+    <input type="file" id="imageInput" accept="image/*">
+    <button id="generateBtn">Generate</button>
+    <div id="progressBar">
+      <div id="progress"></div>
+    </div>
+    <p id="statusMessage"></p>
+    <input type="text" id="imageUrl" readonly>
+    <button id="copyBtn" style="display: none;">Copy Link</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
